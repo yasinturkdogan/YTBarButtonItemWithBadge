@@ -66,7 +66,7 @@ public class YTBarButtonItemWithBadge {
         self.badgeLabel.frame.origin.x = button.frame.width - badgeLabel.frame.width / 2;
     }
     
-    public func setHandler(callback:@escaping SimpleHandler) {
+    public func setHandler(_ callback:@escaping SimpleHandler) {
         if(button.actions(forTarget: self, forControlEvent: .touchUpInside) == nil) {
             button.addTarget(self, action: #selector(onClick), for: UIControlEvents.touchUpInside);
         }
