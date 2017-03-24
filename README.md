@@ -5,12 +5,14 @@ Simple UIBarButtonItem with badge support
 
 
 # Installation
+
 ```
 pod 'YTBarButtonItemWithBadge', '~> 0.1'
 ```
 or copy YTBarButtonItemWithBadge.swift to your project 
 
 # Usage
+
 ```
 func viewDidLoad() {
   let buttonWithBadge = YTBarButtonItemWithBadge();
